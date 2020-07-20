@@ -14,7 +14,6 @@
 		F1991ABE24C519FC004A91BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1991ABC24C519FC004A91BF /* Main.storyboard */; };
 		F1991AC024C519FD004A91BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1991ABF24C519FD004A91BF /* Assets.xcassets */; };
 		F1991AC324C519FD004A91BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1991AC124C519FD004A91BF /* LaunchScreen.storyboard */; };
-		F1991ACE24C519FD004A91BF /* ThirdPartyDependencyTestableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991ACD24C519FD004A91BF /* ThirdPartyDependencyTestableTests.swift */; };
 		F1991AD924C51B91004A91BF /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991AD824C51B91004A91BF /* ModelController.swift */; };
 		F1991ADB24C51F3E004A91BF /* AFNetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991ADA24C51F3E004A91BF /* AFNetworkAdapter.swift */; };
 		F1991ADD24C53039004A91BF /* SpyingNetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991ADC24C53039004A91BF /* SpyingNetworkAdapter.swift */; };
@@ -22,6 +21,8 @@
 		F1991AE124C535EB004A91BF /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991AE024C535EB004A91BF /* Thumbnail.swift */; };
 		F1991AE424C53674004A91BF /* Alamofire+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991AE324C53674004A91BF /* Alamofire+extensions.swift */; };
 		F1991AE624C54D0F004A91BF /* redditResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = F1991AE524C54D0F004A91BF /* redditResponse.json */; };
+		F1991AE824C5CC53004A91BF /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991AE724C5CC53004A91BF /* ViewControllerTests.swift */; };
+		F1991AEA24C5CC6B004A91BF /* ModelControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1991AE924C5CC6B004A91BF /* ModelControllerTests.swift */; };
 		F61BAA8056AC0F46F8FC2FC2 /* Pods_ThirdPartyDependencyTestable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E331A30827A1C8EBF2B39B5 /* Pods_ThirdPartyDependencyTestable.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +51,6 @@
 		F1991AC224C519FD004A91BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1991AC424C519FD004A91BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1991AC924C519FD004A91BF /* ThirdPartyDependencyTestableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThirdPartyDependencyTestableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1991ACD24C519FD004A91BF /* ThirdPartyDependencyTestableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyDependencyTestableTests.swift; sourceTree = "<group>"; };
 		F1991ACF24C519FD004A91BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1991AD824C51B91004A91BF /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		F1991ADA24C51F3E004A91BF /* AFNetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFNetworkAdapter.swift; sourceTree = "<group>"; };
@@ -59,6 +59,8 @@
 		F1991AE024C535EB004A91BF /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		F1991AE324C53674004A91BF /* Alamofire+extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Alamofire+extensions.swift"; sourceTree = "<group>"; };
 		F1991AE524C54D0F004A91BF /* redditResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = redditResponse.json; sourceTree = "<group>"; };
+		F1991AE724C5CC53004A91BF /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		F1991AE924C5CC6B004A91BF /* ModelControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelControllerTests.swift; sourceTree = "<group>"; };
 		F318511AAE39A44155F349B1 /* Pods_ThirdPartyDependencyTestable_ThirdPartyDependencyTestableTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThirdPartyDependencyTestable_ThirdPartyDependencyTestableTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -144,7 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				F1991AE524C54D0F004A91BF /* redditResponse.json */,
-				F1991ACD24C519FD004A91BF /* ThirdPartyDependencyTestableTests.swift */,
+				F1991AE924C5CC6B004A91BF /* ModelControllerTests.swift */,
+				F1991AE724C5CC53004A91BF /* ViewControllerTests.swift */,
 				F1991ADC24C53039004A91BF /* SpyingNetworkAdapter.swift */,
 				F1991ACF24C519FD004A91BF /* Info.plist */,
 			);
@@ -362,8 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1991AE824C5CC53004A91BF /* ViewControllerTests.swift in Sources */,
+				F1991AEA24C5CC6B004A91BF /* ModelControllerTests.swift in Sources */,
 				F1991ADD24C53039004A91BF /* SpyingNetworkAdapter.swift in Sources */,
-				F1991ACE24C519FD004A91BF /* ThirdPartyDependencyTestableTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,10 +8,10 @@
 
 import Foundation
 
-public class ModelController {
+class ModelController {
     
     let url: String
-    public var networkAdapter: NetworkAdapter = AFNetworkAdapter()
+    var networkAdapter: NetworkAdapter = AFNetworkAdapter()
     var feeds: [Feed] = [] {
         didSet {
             handleResults(feeds)
@@ -22,11 +22,11 @@ public class ModelController {
         print("\($0.count) feeds received")
     }
     
-    public init(baseUrl: String = "https://www.reddit.com/r/humor.json") {
+    init(baseUrl: String = "https://www.reddit.com/r/humor.json") {
         self.url = baseUrl
     }
     
-    public func fetchFeed(responseHandler: @escaping (String?) -> Void) {
+    func fetchFeed(responseHandler: @escaping (String?) -> Void) {
 //        let parameters: Parameters = ["id": "userID","service": "token"]
         
         networkAdapter.post(destination: url, payload: nil) { [weak self] serviceResponse in
